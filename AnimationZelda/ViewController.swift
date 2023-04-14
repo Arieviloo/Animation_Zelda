@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .darkGray
+        self.view.backgroundColor = UIColor.black
         
         let animation = UIImage.animatedImage(with: swiftImages, duration: 1)
         let imageView: UIImageView = UIImageView(image: animation)
